@@ -1,0 +1,7 @@
+vl-er-res50-200-loss-l2-5.0-text-sent_transf-s-0
+vl-er-res50-200-loss-l2-10.0-text-sent_transf-s-0
+vl-er-res50-200-loss-l2-20.0-text-sent_transf-s-0
+vl-er-res50-200-loss-nce-5.0-text-sent_transf-s-0
+vl-er-res50-200-loss-nce-10.0-text-sent_transf-s-0
+vl-er-res50-200-loss-nce-20.0-text-sent_transf-s-0
+vl-er-res50-200-loss-l2-5.0-text-bert-s-0
