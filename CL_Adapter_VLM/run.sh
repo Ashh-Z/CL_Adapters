@@ -1,0 +1,17 @@
+CUDA_VISIBLE_DEVICES=3 python main.py \
+--experiment_id lg-ex-cif0-cil \
+--arch resnet18mam \
+--model vl_er \
+--dataset seq-cifar100 \
+--buffer 200 \
+--lr 0.03 \
+--minibatch_size 32 \
+--batch_size 32 \
+--n_epochs 2 \
+--dataset_dir volumes1/datasets/cifar/CIFAR100 \
+--ignore_other_metrics 1 \
+--nowand 1 \
+--text_model sent_transf \
+--gpt_path cl_datasets/metadata/cifar100_descriptions.json \
+--loss_mode sim \
+--loss_wt 6 6 6 6 \
